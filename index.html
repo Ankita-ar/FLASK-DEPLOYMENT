@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iris Predictor</title>
+</head>
+<body>
+    <h2>Enter Iris Features</h2>
+    <form action="/predict" method="post">
+        <input type="text" name="sepal length (cm)" placeholder="Sepal Length">
+        <input type="text" name="sepal width (cm)" placeholder = "Sepal Width">
+        <input type="text" name="petal length (cm)" placeholder = "Petal Length">
+        <input type="text" name="petal width (cm)" placeholder = "Petal Width">
+        <input type="submit" value="Predict">
+    </form>
+
+
+    {% if prediction_text %}
+        <h3>{{ prediction_text }}</h3>
+    {% endif %}
+</body>
+</html>
