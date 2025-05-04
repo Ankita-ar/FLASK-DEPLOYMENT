@@ -13,7 +13,7 @@ This is a simple Flask-based web application that predicts the species of an Iri
    python app.py
 
 3. Open in Browser:
-   Visit https://127.0.0.1:5000
+   Visit http://127.0.0.1:5000/
 
 👤 Author
 Ankita Roy – Data Science Enthusiast
